@@ -7,7 +7,6 @@ const usePublicStore = defineStore('public', {
     asideWidth: 300,
   }),
 })
-const a = 1
-console.log(a );
+
 
 export default usePublicStore
