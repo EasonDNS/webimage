@@ -9,15 +9,17 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, ref } from 'vue'
+import { ref } from 'vue'
 import LabelItem from '@/components/LabelItemComponent.vue'
 import { labels } from '../assets/doc/label.ts'
 const tabs = ref(labels)
 </script>
 <style lang="less" scoped>
 .label-navigation {
+  //background-color: #fff;
+  width: 100%;
   .content {
-    width: 80%;
+    width: 100%;
     //background-color: orange;
     display: flex;
     align-items: center;
@@ -27,7 +29,7 @@ const tabs = ref(labels)
     .item {
       //width: 200px;
       //height: 200px;
-      background-color: orangered;
+      //background-color: orangered;
       margin: 10px;
     }
   }

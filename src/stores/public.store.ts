@@ -8,5 +8,4 @@ const usePublicStore = defineStore('public', {
   }),
 })
 
-
 export default usePublicStore

@@ -12,23 +12,22 @@ const labels: I_label[] = [
   {
     name: 'file',
     url: 'http://nas.easondns.top',
-    icon: '/down.png',
+    icon: '/default.png',
   },
-  // {
-  //   name: 'ptTime',
-  //   url: 'http://nas.easondns.top',
-  //   icon: '',
-  // },
-  // {
-  //   name: 'HDSky',
-  //   url: 'http://nas.easondns.top',
-  //   icon: '/down.png',
-  // },
-  // {
-  //   name: 'Github',
-  //   url: 'http://nas.easondns.top',
-  //   icon: '',
-  // },
+  {
+    name: 'ptTime',
+    url: 'http://nas.easondns.top',
+    icon: '/one.jpg',
+  },
+  {
+    name: 'HDSky',
+    url: 'http://nas.easondns.top',
+    icon: '/default.png',
+  },
+  {
+    name: 'Github',
+    url: 'http://nas.easondns.top',
+  },
   // {
   //   name: 'YouTube',
   //   url: 'http://nas.easondns.top',
